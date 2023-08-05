@@ -55,7 +55,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="container">
       <h1>Report App</h1>
       <select onChange={handleReportChange}>
         <option value="report1">Report 1</option>
